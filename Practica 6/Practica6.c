@@ -21,4 +21,6 @@ int main(){
 
     printf("El precio final del vehículo es %.2f\n",preciof);
 
+    return 0;
+
 }

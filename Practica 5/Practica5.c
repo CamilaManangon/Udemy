@@ -16,4 +16,6 @@ int main(){
     }else{
         printf("Nota invalida\n");
     }
+
+    return 0;
 }

@@ -8,5 +8,6 @@ int main(){
 
     printf("%.2f euros equivale a %.2f pesetas.\n",euro, euro*166.386);
 
+    return 0;
 
 }

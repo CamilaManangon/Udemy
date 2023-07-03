@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//imprime multiplos de 3 de 1 al 100
+
 int main(){
 
     for(int i = 1; i<=100; i++){
