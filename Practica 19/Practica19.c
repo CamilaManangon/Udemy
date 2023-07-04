@@ -13,7 +13,7 @@ int main()
     scanf("%d",&numero);
 
     FILE *f;
-    f = fopen("tabla.txt","w");//abro archivo en modo escritura
+    f = fopen("tabla.txt","w+");//abro archivo en modo escritura
     for (int i=0; i<=10; i++){
         fprintf(f,"%d\n",i*numero);//escribo en tabla.txt, multiplico i por el numero recorre desde el 0 hasta el 10
     }
